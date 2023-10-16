@@ -1,10 +1,17 @@
-const Navbar = (navId) => {
+const Navbar = ({ isMenuVisible, toggleMenu }) => {
   return (
     <nav>
-      <ul id={navId} className='primary-navigation underline-indicators flex'>
+      <ul
+        className={`primary-navigation ${
+          isMenuVisible ? 'active' : ''
+        } 'underline-indicators flex'`}
+      >
+        <button onClick={toggleMenu} className='btn-menu'>
+          Close
+        </button>
         <li>
           <a
-            className='ff-sans-cond uppercase text-dark letter-spacing-2'
+            className='ff-sans-cond uppercase text-dark letter-spacing-2 fs-500'
             href='index.html'
           >
             Nosotros
@@ -12,7 +19,7 @@ const Navbar = (navId) => {
         </li>
         <li>
           <a
-            className='ff-sans-cond uppercase text-dark letter-spacing-2'
+            className='ff-sans-cond uppercase text-dark letter-spacing-2 fs-500'
             href='services.html'
           >
             Servicios
@@ -20,7 +27,7 @@ const Navbar = (navId) => {
         </li>
         <li>
           <a
-            className='ff-sans-cond uppercase text-dark letter-spacing-2'
+            className='ff-sans-cond uppercase text-dark letter-spacing-2 fs-500'
             href='works.html'
           >
             Obras
@@ -28,7 +35,7 @@ const Navbar = (navId) => {
         </li>
         <li>
           <a
-            className='ff-sans-cond uppercase text-dark letter-spacing-2'
+            className='ff-sans-cond uppercase text-dark letter-spacing-2 fs-500'
             href='contact.html'
           >
             Contacto
