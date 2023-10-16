@@ -298,3 +298,39 @@ select {
   color: hsl(var(--clr-dark) / 1);
   border-color: hsl(var(--clr-dark) / 1);
 }
+
+.whatsapp-button {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+  border: 2px solid darkgreen;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: hsl(var(--clr-dark));
+  margin-right: 1rem;
+}
+
+.whatsapp-button:hover {
+  background-color: darkgreen;
+}
+
+.whatsapp-button:focus {
+  outline: none;
+}
+
+.fab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.fa-whatsapp {
+  font-size: 2rem;
+}
+
+.hero {
+  background-color: black;
+  height: 90vh;
+}

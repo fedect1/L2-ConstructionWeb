@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import logo from '../assets/images/logo.jpg';
 import Navbar from './Navbar';
+import Whatsapp from './Whatsapp';
 
 const Header = () => {
   const [menuVisible, setMenuVisible] = useState(false);
