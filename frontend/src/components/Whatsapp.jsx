@@ -12,7 +12,9 @@ const Whatsapp = () => {
         target='_blank'
         rel='noopener noreferrer'
       >
-        <i className='fab fa-whatsapp'></i> +540000000000
+        <i className='ff-sans-cond uppercase text-dark letter-spacing-2 fs-500'>
+          Contacto
+        </i>
       </a>
     </a>
   );
