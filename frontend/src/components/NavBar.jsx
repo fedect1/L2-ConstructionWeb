@@ -3,7 +3,7 @@ import menuBurger from '../assets/icons/menu-burger.svg';
 const Navbar = () => {
   return (
     <>
-      <ul className='bg-blue-400 hidden sm:flex text-[18px] sm:w-[438px] sm:place-content-around sm:text-[16px] sm:items-center'>
+      <ul className='hidden sm:flex text-[18px] sm:w-[438px] sm:place-content-around sm:text-[16px] sm:items-center'>
         <li>
           <a href='#'>Nosotros</a>
         </li>

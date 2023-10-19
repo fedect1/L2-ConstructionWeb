@@ -3,7 +3,7 @@ import Hero from './components/Hero';
 
 const App = () => {
   return (
-    <main className='px-4 pt-6'>
+    <main className='px-4 pt-6 max-w-screen-lg mx-auto'>
       <Header />
       <Hero />
     </main>

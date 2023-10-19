@@ -1,4 +1,4 @@
-import imageHeroDesktop from '../assets/images/hero-foto-desktop.jpg';
+import imageHeroDesktop from '../assets/images/hero-foto-desktop.png';
 import imageHeroMobile from '../assets/images/hero-foto-mobile.jpg';
 const Hero = () => {
   return (
@@ -12,20 +12,22 @@ const Hero = () => {
           alt='Foto de portada de la empresa'
         />
       </picture>
-      <div>
-        <div className='sm:flex'>
-          <h1 className='text-4xl font-bold text-center mt-4'>
+      <div className='sm:flex'>
+        <div className='flex-1 py-6'>
+          <h1 className='text-[40px] font-bold sm:text-[58px] leading-none'>
             Somos una empresa de servicios de Construccion
           </h1>
         </div>
-        <div>
-          <p>
+        <div className='flex-1 pt-9'>
+          <p className='text-[13px] mb-10 sm:text-[15px]'>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi sed
             rem corporis recusandae voluptate laborum ipsum excepturi
             consectetur, fuga facere nisi quo, mollitia voluptatum qui
             cupiditate. Ullam minima ad aperiam!
           </p>
-          <button>Contacto</button>
+          <button className='bg-SoftOrange w-[185px] h-[48px] hover:bg-VeryDarkBlue'>
+            Contacto
+          </button>
         </div>
       </div>
     </section>
