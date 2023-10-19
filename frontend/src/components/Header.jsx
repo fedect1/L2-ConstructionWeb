@@ -1,7 +1,11 @@
+import logo from '../assets/images/logo.jpg';
+import Navbar from './Navbar';
+
 const Header = () => {
   return (
-    <header>
-      <h1 className='text-3xl font-bold underline'>Hello world!</h1>
+    <header className='bg-red-500 flex place-content-between items-center'>
+      <img src={logo} alt='logo' className='w-24 h-12' />
+      <Navbar />
     </header>
   );
 };
