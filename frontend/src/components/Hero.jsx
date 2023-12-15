@@ -2,7 +2,7 @@ import imageHeroDesktop from '../assets/images/hero-foto-desktop.png';
 import imageHeroMobile from '../assets/images/hero-foto-mobile.jpg';
 const Hero = () => {
   return (
-    <section>
+    <section className=''>
       <picture>
         <source media='(min-width: 641px)' srcSet={imageHeroDesktop} />
         <source media='(max-width: 640px)' srcSet={imageHeroMobile} />
