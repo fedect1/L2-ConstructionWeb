@@ -6,6 +6,8 @@ export default {
       colors: {
         SoftOrange: '#FFA500',
         VeryDarkBlue: '#1E202A',
+        WhatsappGreen: '#25D366',
+        WhatsappHover: '#075E54',
       },
     },
     plugins: [],
