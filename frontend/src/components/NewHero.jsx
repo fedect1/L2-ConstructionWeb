@@ -2,7 +2,7 @@ import imageHeroDesktop from '../assets/images/hero-foto-desktop.png';
 import imageHeroMobile from '../assets/images/hero-foto-mobile.jpg';
 const NewHero = () => {
   return (
-    <section className='w-full overflow-hidden text-center flex flex-row h-[80vh] mt-[10vh]'>
+    <section className='w-full overflow-hidden text-center flex flex-row h-[90vh] mt-[10vh] pb-5'>
       <div className='basis-1/2 mx-5 my-3 flex flex-col justify-center items-center'>
         <div className=''>
           <h1 className='text-x font-bold sm:text-2xl tracking-wide uppercase'>
