@@ -5,7 +5,7 @@ const NewHero = () => {
     <section className='w-full overflow-hidden text-center flex flex-row h-[90vh] mt-[10vh] pb-5'>
       <div className='basis-1/2 mx-5 my-3 flex flex-col justify-center items-center'>
         <div className=''>
-          <h1 className='text-x font-bold sm:text-2xl tracking-wide uppercase'>
+          <h1 className='text-xs font-bold sm:text-2xl tracking-wide uppercase'>
           Excelencia en Dirección y Ejecución de Proyectos
           </h1>
         </div>

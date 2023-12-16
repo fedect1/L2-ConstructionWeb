@@ -10,6 +10,9 @@ export default {
         WhatsappGreen: '#25D366',
         WhatsappHover: '#075E54',
       },
+      fontFamily: {
+        Montserrat: ['Montserrat', 'sans-serif'],
+      },
     },
     plugins: [],
   },
