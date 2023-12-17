@@ -89,13 +89,7 @@ p {
 
 /* Set core body defaults */
 body {
-  font-family: var(--ff-sans-normal);
-  font-size: var(--fs-400);
-  background-color: hsl(var(--clr-dark));
-  color: hsl(var(--clr-white));
-  min-height: 100vh;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
+  font-family: 'Montserrat'
 }
 
 /* A elements that don't have a class get default styles */

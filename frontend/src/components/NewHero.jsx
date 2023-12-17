@@ -13,7 +13,7 @@ const NewHero = () => {
           <p className='text-base mb-10 sm:text-base '>
           En L2, cada proyecto es un compromiso con la calidad y la precisión. Nos especializamos en llevar diseños a la realidad, enfocándonos en una ejecución y dirección meticulosa. Nuestro enfoque está en superar las expectativas con solidez, responsabilidad y una gestión eficiente. Su visión, guiada por nuestra experiencia, se convierte en estructuras duraderas y funcionales
           </p>
-          <button type="button" className="hidden md:inline-block text-GrayCustom bg-SoftOrange hover:bg-WhatsappGreen focus:ring-4 focus:outline-none focus:ring-WhatsappHover font-medium rounded-lg text-lg px-4 py-2 text-center shadow-xl">Contacto</button>
+          <button type="button" className="hidden md:inline-block text-GrayCustom bg-SoftOrange hover:bg-WhatsappGreen focus:ring-4 focus:outline-none focus:ring-WhatsappHover font-medium rounded-lg text-lg py-3 px-5 text-center shadow-xl">Contacto</button>
         </div>
       </div>
       <div className='basis-1/2 mx-5 my-3'>

@@ -1,19 +1,31 @@
+import servicesImg from '../assets/images/services.png';
 const ServicesSection = () => {
   return (
     <section className="h-[90vh]">
-        <h2 className="text-xs text-center font-bold sm:text-2xl uppercase my-5">Servicios de Construcción Completa</h2>
+        <h2 className="text-xs text-left font-bold sm:text-2xl uppercase my-5">Servicios de Construcción Completa</h2>
         <div className="pb-5 flex flex-col md:flex-row gap-6 mx-5">
-            <div className="max-w-sm p-6 bg-SoftOrange/50 border border-gray-200 rounded-lg shadow md:basis-1/3 h-48 flex flex-col justify-center items-center">
+            <div className="max-w-sm p-6 border border-SoftOrange bg-SoftOrange/10 rounded-lg shadow md:basis-1/3 h-48 flex flex-col justify-center items-center">
                 <h3 className="text-xs font-medium sm:text-lg tracking-wide uppercase text-center">Proyecto y Diseño Personalizado</h3>
             </div>
-            <div className="max-w-sm p-6 bg-SoftOrange/50 border border-gray-200 rounded-lg shadow md:basis-1/3 h-48 flex flex-col justify-center items-center">
-                <h3 className="text-xs font-medium sm:text-lg tracking-wide uppercase text-center">Ejecución y Control de Obra</h3>
-            </div>
-            <div className="max-w-sm p-6 bg-SoftOrange/50 border border-gray-200 rounded-lg shadow md:basis-1/3 h-48 flex flex-col justify-center items-center">
+            <div className="max-w-sm p-6 border border-SoftOrange bg-SoftOrange/10 rounded-lg shadow md:basis-1/3 h-48 flex flex-col justify-center items-center">
                 <h3 className="text-xs font-medium sm:text-lg tracking-wide uppercase text-center">Materiales de Primera Calidad y Construcción Sostenible</h3>
             </div>
+            <div className="max-w-sm p-6 border border-SoftOrange bg-SoftOrange/10 rounded-lg shadow md:basis-1/3 h-48 flex flex-col justify-center items-center">
+                <h3 className="text-xs font-medium sm:text-lg tracking-wide uppercase text-center">Ejecución y Control de Obra</h3>
+            </div>
         </div>
-        <h2 className="text-xs text-center font-bold sm:text-2xl uppercase my-5">Consultoría y Asesoramiento Personalizado</h2>
+        <div className="pb-5 flex flex-col gap-6 mx-5">
+            <img src={servicesImg} alt="Casa con plieta" className='fit object-cover brightness-50 rounded-xl' />
+            <div className='flex md:flex-row'>
+                <div className='p-6 md:basis-2/3 flex flex-col justify-start items-center'>
+                    <h2 className="text-xs text-left font-bold sm:text-2xl uppercase my-5">Servicios de Construcción Completa</h2>
+                </div>
+                <div className='max-w-sm p-6 md:basis-1/3 flex flex-col justify-center items-center'>
+                    <h3 className="text-xs font-medium sm:text-md tracking-wide uppercase text-left">Proyecto y Diseño Personalizado. Ejecución y Control de Obra. Materiales de Primera Calidad y Construcción Sostenible.</h3>
+                </div>
+            </div>
+          </div>
+        {/* <h2 className="text-xs text-center font-bold sm:text-2xl uppercase my-5">Consultoría y Asesoramiento Personalizado</h2>
         <div>
             <div className="pb-5 flex flex-col md:flex-row gap-2 mx-5">
                 <div className="max-w-sm p-6 bg-SoftOrange/50 border border-gray-200 rounded-lg shadow md:basis-1/3 h-48 flex flex-col justify-center items-center">
@@ -46,7 +58,7 @@ const ServicesSection = () => {
                     <h3 className="text-xs font-medium sm:text-lg tracking-wide uppercase text-center">Modular</h3>
                 </div>
             </div>
-        </div>
+        </div> */}
     </section>
   )
 }
