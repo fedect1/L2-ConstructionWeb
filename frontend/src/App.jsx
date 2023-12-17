@@ -9,7 +9,6 @@ const App = () => {
     <main className='px-4 pt-6 max-w-screen-lg mx-auto'>
       <StickyNavbar />
       <NewHero />
-      <ServicesSection />
       <Services />
     </main>
   );

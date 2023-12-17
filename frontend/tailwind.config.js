@@ -9,6 +9,7 @@ export default {
         VeryDarkBlue: '#1E202A',
         WhatsappGreen: '#25D366',
         WhatsappHover: '#075E54',
+        Darkbg: '#1E202A',
       },
       fontFamily: {
         Montserrat: ['Montserrat', 'sans-serif'],
