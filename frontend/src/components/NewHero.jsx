@@ -6,7 +6,7 @@ const NewHero = () => {
       <div className='basis-1/2 mx-5 my-3 flex flex-col justify-center items-center'>
         <div className=''>
           <h1 className='text-xs font-bold sm:text-2xl tracking-wide uppercase'>
-          Excelencia en Dirección y Ejecución de Proyectos
+          Servicios de Construcción y Diseño de Calidad en Funes
           </h1>
         </div>
         <div className='mt-5'>
